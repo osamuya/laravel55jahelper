@@ -1,0 +1,39 @@
+{
+    "name": "osamuya/laravel55jahelper",
+    "description": "The helper for laravel55ja, php applications.",
+    "keywords": ["helper", "support", "laravel"],
+    "homepage": "https://github.com/osamuya/laravel55jahelper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "osamuya",
+            "email": "oosamuuy@gmail.com",
+            "homepage": "https://saba.omnioo.com/note/"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "intervention/image": "^2.4",
+        "webpatser/laravel-uuid": "^3.0"
+    },
+    "require-dev": {
+        "intervention/image": "^2.4",
+        "webpatser/laravel-uuid": "^3.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {"Laravel55JaHelper\\": "src/Laravel55JaHelper"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Laravel55JaHelper\\": "tests/Laravel55JaHelper"}
+    },
+    "provide": {
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
