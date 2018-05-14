@@ -7,22 +7,21 @@ use Laravel55JaHelper\Useragent\Useragent;
 
 class Helper
 {
-    public function __construct() {
-        
 
-        
+	public $user_agent;
+
+    public function __construct() {
+
     }
 
 
     public function helloHelper() {
-        
-        
         return "Hello Helper for Laravel55Ja";
     }
-    
-	
-	
-	
+
+
+
+
 /**
  * User agent judgment
  *
@@ -37,8 +36,30 @@ class Helper
 	static public function ua($option = null)
 	{
 		$ua = new Useragent();
+		$re = $ua->helloUseragent2();
+
 		echo Useragent::helloUseragent();
 
+		// var_dump($this->user_agent);
+//		echo $this->user_agent->helloUseragent();
+
+		// echo $this->helloHelper();
 		return "foo";
 	}
+
+
+
+
+		public function makeUniqueid($prefix=null) {
+
+			$uniqueid = "xxxx";
+			return $uniqueid;
+		}
+
+
+
+
+
+
+
 }
