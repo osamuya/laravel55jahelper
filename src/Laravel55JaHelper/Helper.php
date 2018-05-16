@@ -47,9 +47,6 @@ class Helper
 		return "foo";
 	}
 
-
-
-
 		// public function makeUniqueid($prefix=null) {
 		//
 		// 	$uniqueid = "xxxx";
@@ -68,6 +65,7 @@ class Helper
 
         return $uniqueid;
     }
+
 
 
 
